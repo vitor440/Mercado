@@ -106,8 +106,8 @@ def add_loja(loja: List[Produto], novo_produto: Produto):
 def add_carrinho(carrinho: List[Dict[Produto, int]], novo_produto: Produto):
 
     """
-    Finalidade: adicionar produto da loja no carrinho. Se o carrinho estiver vazio ou
-    se o carrinho já tiver esse produto, então a quantidade é acrescida.
+    Finalidade: adicionar produto da loja no carrinho. Se o carrinho 
+    já tiver esse produto, então a quantidade é acrescida.
 
     Parâmetros: lista de dicionários 'carrinho' e um objeto Produto 'novo_produto'
     """
