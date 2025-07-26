@@ -16,7 +16,8 @@ def menu():
 
         print("1 - Visualizar loja\n2 - Visualizar carrinho\n3 - Cadastrar produto na loja\n4 - Adiciona produto ao carrinho")
         print("5 - Finalizar compra\n6 - Sair")
-        
+
+        # Loop para tratar o erro'ValueError' para a variável 'op'.
         while True:
             try:
                 op: int = int(input())
