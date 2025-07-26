@@ -1,7 +1,7 @@
 from time import sleep
 from typing import List, Dict
 
-from time import sleep
+
 
 def formata_preco(preco: float):
     """Formata o preço do produto:
