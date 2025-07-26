@@ -81,7 +81,7 @@ def mostra_carrinho(carrinho):
 def add_loja(loja: List[Produto], novo_produto: Produto):
 
     """
-    Finalidade: adicionar um objeto 'Produto' na lista 'Loja' caso não exista nenhum produto
+    Finalidade: adicionar um objeto 'novo_Produto' na lista 'Loja' caso não exista nenhum produto
     na loja com o mesmo nome do novo_produto.
 
     parâmetros: lista 'loja' e um objeto Produto 'novo_produto'. 
