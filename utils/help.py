@@ -111,7 +111,7 @@ def add_carrinho(carrinho: List[Dict[Produto, int]], novo_produto: Produto):
 
     Parâmetros: lista de dicionários 'carrinho' e um objeto Produto 'novo_produto'
     """
-    # Se carrinho estiver vazio é criado um item {novo_produto: 1} que é adicionado no carrinho.
+    # Se carrinho estiver vazio é criado um item {novo_produto: 1} que é adicionado ao carrinho.
     if carrinho == []:
         item = {novo_produto : 1}
         carrinho.append(item)
