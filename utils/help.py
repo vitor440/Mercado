@@ -91,7 +91,7 @@ def add_loja(loja: List[Produto], novo_produto: Produto):
     # Ex: [Produto1, Produto2, Produto3] -> ['Notebook', 'Geladeira', 'Televisão']
     nomes_produtos_loja = list(map(lambda x: x.nome, loja))
 
-    # Verifica se o nome de novo_produto já está na lista de nomes dos produtos. 
+    # Verifica se o nome de 'novo_produto' já está na lista de nomes dos produtos da loja. 
     if novo_produto.nome in nomes_produtos_loja:
         print("Produto já está cadastrado na loja!")
         sleep(2)
