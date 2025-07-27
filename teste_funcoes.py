@@ -3,9 +3,9 @@ import unittest
 from utils.help import add_loja, add_carrinho
 
 
+# Testes unitários de funções.
 
-
-class TestProduto(unittest.TestCase):
+class TestFuncoes(unittest.TestCase):
 
     p = Produto("Notebook gamer", 3213.43)
     p2 = Produto("Xbox 360", 2300.12)
