@@ -44,7 +44,7 @@ def mostra_loja(loja):
         sleep(2)
 
 
-def mostra_carrinho(carrinho):
+def mostra_carrinho(carrinho: List[Dict[Produto, int]]):
 
     """
     Imprimi os produtos do carrinho + quantidade. Se o carrinho estiver vazio ([]), imprimi "Carrinho vazio!"
